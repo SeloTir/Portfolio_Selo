@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon portfolio</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="Js/Script.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+
+    <body>
+      <header class="header sticky">
+        <div class="container flex">
+          <div class="logo">
+              <a href="index.html">
+                  TIRYAKI Selahaddin
+              </a>
+          </div>
+            
+          <nav class="navbar menu resetStyle">
+            <a href="#about"class="active">A propos</a>
+            <a href="#skills"class="active">Compétences</a>
+            <a href="#projets"class="active">Projets</a>
+            <a href="#formation"class="active">Formations & Stages</a>
+            <a href="#contact" class="active">Contact</a>
+          </nav>
+          <button class="burger"><span class="bar"></span></button>
+        </div>
+      </header>
+
+        <div class="hero">
+          <div class="hero-content left">
+              <h1>TIRYAKI Selahaddin</h1>
+              <p>Étudiant en Systèmes, Réseaux & Cloud Computing</p>
+          </div>
+        </div>
+
+      <section class="section about show-animate">
+        <div class="container animate">
+          <div class="grid-item">
+            <div class="section-title">
+              <h2>A propos</h2>
+              <hr>
+            </div>
+
+            <div id="slider">
+              <input type="radio" name="slider" id="slide1" checked>
+              <input type="radio" name="slider" id="slide2">
+
+              <div id="slides">
+                 <div id="overflow">
+                    <div class="inner">
+                       <div class="slide slide_1">
+                        <div class="about-content">
+                          <p>Actuellement en première année de BUT Informatique à l'IUT de Montreuil, je suis à la recherche d'un <span style="color: #540FE8;">contrat d'apprentissage</span> pour la rentrée 2024 dans le développement web/logiciel ou la data, sur une durée de 2 ans.</p>
+                        
+                          <p style="font-size: 22px;"><strong>Pourquoi l’informatique ?</strong></p>  
+            
+                          <p>Étant un grand passionné de sport automobile notamment par la F1. Dès mon plus jeune âge, j’ai toujours voulu devenir un pilote. Malheureusement ce rêve fut inaccessible. </p>
+
+                          <p>Je me suis donc dit que si je ne pouvais pas être pilote pourquoi ne pas chercher un métier en lien avec cette passion. Sachant que la F1 et le monde du sport automobile utilisent beaucoup de nouvelles technologies, je me suis donc orienté vers l’informatique.</p>
+
+                          <p>Mon objectif est donc de pouvoir assimiler un maximum de compétences pour pouvoir un jour, accomplir mon rêve d’enfant.</p>
+                        </div>
+                       </div>
+                       <div class="slide slide_2">
+                        <div class="passion">
+                          <div class="passion-title">
+                            <h3>Centres d'intêret</h3>
+                          </div>
+                          
+                          <div class="box-passion">
+                            <div class="passion-content">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.99 511.99" xml:space="preserve" width="100px" height="70px" fill="#540FE8"><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/> <g id="SVGRepo_iconCarrier"> <g> <path style="fill:#540FE8;" d="M479.991,319.993c-5.891,0-10.656-4.781-10.656-10.672v-21.326c0-5.891,4.766-10.672,10.656-10.672 s10.656,4.781,10.656,10.672v21.326C490.647,315.212,485.882,319.993,479.991,319.993z"/> <path style="fill:#540FE8;" d="M501.334,330.665h-42.687c-5.875,0-10.656-4.781-10.656-10.672s4.781-10.672,10.656-10.672h42.687 c5.875,0,10.656,4.781,10.656,10.672S507.209,330.665,501.334,330.665z"/> <path style="fill:#540FE8;" d="M309.338,255.995c-5.906,0-10.688-4.781-10.688-10.672v-10.656c0-5.891,4.781-10.672,10.688-10.672 c5.875,0,10.655,4.781,10.655,10.672v10.656C319.993,251.214,315.213,255.995,309.338,255.995z"/> <path style="fill:#540FE8;" d="M234.66,213.324c-5.891,0-10.664-4.766-10.664-10.656v-10.672c0-5.891,4.773-10.672,10.664-10.672 c5.89,0,10.671,4.781,10.671,10.672v10.672C245.331,208.558,240.55,213.324,234.66,213.324z"/> </g> <g> <path style="fill:#540FE8;" d="M490.147,254.183c-9.906-5.938-23.375-10.641-40.062-13.984 c-27.391-5.469-54.296-5.531-55.437-5.531c-5.874,0-10.655,4.766-10.655,10.656v42.671c0,5.891,4.781,10.672,10.655,10.672h106.686 c5.875,0,10.656-4.781,10.656-10.672C511.99,278.542,508.209,265.011,490.147,254.183z"/> <path style="fill:#540FE8;" d="M394.648,234.667H255.995v-31.999c0-5.891-4.773-10.672-10.664-10.672 c-109.443,0-162.27,45.499-164.465,47.437c-1.789,1.594-3,3.734-3.43,6.078l-13.266,72.56c-0.57,3.125,0.273,6.328,2.305,8.75 c2.023,2.438,5.023,3.844,8.188,3.844h234.675c2.297,0,4.531-0.75,6.391-2.141l42.671-31.998 c4.703-3.531,5.656-10.219,2.125-14.938c-2.656-3.547-7.109-4.953-11.156-3.938l45.279-21.655c5.906,0,10.688-4.781,10.688-10.672 S400.555,234.667,394.648,234.667z"/> </g> <path style="fill:#540FE8;" d="M255.995,234.667v-31.999c0-5.891-4.773-10.672-10.664-10.672 c-109.443,0-162.27,45.499-164.465,47.437c-1.789,1.594-3,3.734-3.43,6.078l-13.266,72.56c-0.57,3.125,0.273,6.328,2.305,8.75 c2.023,2.438,11.016-75.482,14.18-75.482L255.995,234.667z"/> <path style="fill:#540FE8;" d="M33.343,287.995H10.664C4.773,287.995,0,283.214,0,277.323v-95.998 c0-5.891,4.773-10.656,10.664-10.656h85.334c5.891,0,10.664,4.766,10.664,10.656v21.344c0,2.5-0.883,4.937-2.492,6.843 l-62.655,74.671C39.491,286.604,36.499,287.995,33.343,287.995z"/> <path style="fill:#000000;" d="M74.662,234.667c-29.406,0-53.327,23.921-53.327,53.328c0,29.404,23.921,53.326,53.327,53.326 c29.414,0,53.335-23.922,53.335-53.326C127.997,258.589,104.076,234.667,74.662,234.667z"/> <path style="fill:#ffffff;" d="M82.209,295.542c-4.164,4.156-10.922,4.156-15.086,0c-4.164-4.172-4.164-10.922,0-15.094 c4.164-4.156,10.922-4.156,15.086,0C86.373,284.62,86.373,291.37,82.209,295.542z"/> <g> <rect x="282.655" y="234.665" style="fill:#540FE8;" width="80.687px" height="96px"/> <path style="fill:#540FE8;" d="M234.66,298.667h-63.999c-5.891,0-10.664-4.781-10.664-10.672s4.773-10.672,10.664-10.672h63.999 c5.89,0,10.671,4.781,10.671,10.672S240.55,298.667,234.66,298.667z"/> </g> <path style="fill:#000000;" d="M394.648,234.667c-29.405,0-53.312,23.921-53.312,53.328c0,29.404,23.906,53.326,53.312,53.326 c29.421,0,53.343-23.922,53.343-53.326C447.991,258.589,424.069,234.667,394.648,234.667z"/> <path style="fill:#ffffff;" d="M402.211,295.542c-4.172,4.156-10.937,4.156-15.093,0c-4.156-4.172-4.156-10.922,0-15.094 c4.156-4.156,10.921-4.156,15.093,0C406.367,284.62,406.367,291.37,402.211,295.542z"/> </g></svg>                                     
+                              <h4>Formule 1</h4>
+                              <p>Depuis tout petit, je suis passionné par ce sport, dont j'ai longtemps rêvé devenir un pilote.</p>
+                            </div>
+            
+                            <div class="passion-content">
+                              <svg height="70px" width="70px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 420" xml:space="preserve" fill="#540FE8" stroke="#540FE8"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#FFFFFF;" d="M295.529,77.523c-9.295,17.844-19.983,37.536-32.508,59.89c9.271,15.888,18.678,31.843,27.804,47.32 c3.011,5.107,6.012,10.196,8.999,15.267h72.841c8.404-13.483,15.459-24.919,21.84-35.4c-7.583-30.808-22.695-58.684-43.275-81.554 C332.659,80.757,313.972,78.903,295.529,77.523z"/> <path style="fill:#FFFFFF;" d="M129.185,235.282c-3.017-5.118-6.012-10.201-9.005-15.282H47.337 c-8.418,13.506-15.474,24.942-21.841,35.401c7.582,30.807,22.693,58.682,43.271,81.552c18.577,2.29,37.266,4.145,55.704,5.524 c9.295-17.844,19.983-37.536,32.505-59.885C147.708,266.707,138.309,250.757,129.185,235.282z"/> <path style="fill:#FFFFFF;" d="M47.337,200h72.84c2.989-5.076,5.994-10.171,9.007-15.282c9.123-15.473,18.527-31.422,27.795-47.305 c-12.52-22.346-23.21-42.04-32.508-59.89c-18.444,1.38-37.132,3.235-55.703,5.524c-20.578,22.87-35.689,50.745-43.272,81.553 C31.876,175.079,38.932,186.515,47.337,200z"/> <path style="fill:#FFFFFF;" d="M278.248,352.594c-9.272-17.829-19.971-37.553-32.551-60.009c-23.715,0.336-47.676,0.336-71.393,0 c-12.575,22.448-23.275,42.175-32.551,60.009c8.79,14.805,16.87,28.735,24.552,42.325c14.033,3.315,28.659,5.078,43.69,5.078 c15.036,0,29.666-1.764,43.702-5.08C261.384,381.318,269.463,367.389,278.248,352.594z"/> <path style="fill:#FFFFFF;" d="M372.663,220H299.82c-2.99,5.076-5.981,10.154-8.996,15.267 c-9.127,15.48-18.529,31.434-27.801,47.325c12.526,22.356,23.214,42.048,32.505,59.886c18.448-1.381,37.135-3.236,55.701-5.524 c20.58-22.87,35.691-50.745,43.274-81.553C388.126,244.924,381.07,233.488,372.663,220z"/> <path style="fill:#FFFFFF;" d="M166.304,25.081c-7.682,13.591-15.762,27.521-24.552,42.325 c9.281,17.844,19.984,37.577,32.561,60.027c23.717-0.336,47.656-0.336,71.373,0c12.58-22.457,23.284-42.189,32.561-60.027 c-8.79-14.805-16.87-28.734-24.551-42.323c-14.037-3.317-28.667-5.08-43.702-5.08C194.963,20.003,180.337,21.766,166.304,25.081z"/> <path style="fill:#540FE8;" d="M174.282,147.435c-9.301,15.941-18.723,31.929-27.869,47.441c-2.986,5.065-5.95,10.095-8.912,15.124 c2.962,5.03,5.925,10.06,8.912,15.124c9.146,15.512,18.568,31.5,27.869,47.441c23.737,0.339,47.7,0.339,71.435,0 c9.305-15.946,18.73-31.939,27.878-47.456c2.983-5.06,5.943-10.085,8.902-15.109c-2.959-5.024-5.919-10.049-8.902-15.109 c-9.149-15.517-18.574-31.51-27.878-47.456C221.981,147.096,198.019,147.096,174.282,147.435z"/> <path style="fill:#000000;" d="M138.073,34.155c-16.157,6.633-31.207,15.423-44.783,26.022c10.405-1.044,20.795-1.949,31.106-2.708 C129.15,49.464,133.691,41.723,138.073,34.155z"/> <path style="fill:#000000;" d="M399.396,194.86c-2.951,4.774-6.068,9.794-9.399,15.14c3.331,5.346,6.448,10.367,9.399,15.14 c0.396-4.995,0.603-10.042,0.603-15.137C400,204.906,399.792,199.857,399.396,194.86z"/> <path style="fill:#000000;" d="M281.929,385.842c16.155-6.632,31.203-15.421,44.778-26.019 c-10.403,1.043-20.791,1.949-31.103,2.707C290.853,370.533,286.312,378.272,281.929,385.842z"/> <path style="fill:#000000;" d="M295.604,57.469c10.309,0.759,20.697,1.664,31.101,2.708 c-13.574-10.597-28.622-19.386-44.776-26.018C286.311,41.725,290.851,49.465,295.604,57.469z"/> <path style="fill:#000000;" d="M20.603,225.141c2.95-4.771,6.067-9.792,9.4-15.141c-3.331-5.346-6.448-10.367-9.399-15.14 C20.208,199.857,20,204.906,20,210.002C20,215.098,20.208,220.145,20.603,225.141z"/> <path style="fill:#000000;" d="M124.396,362.532c-10.31-0.759-20.7-1.665-31.107-2.709c13.577,10.6,28.627,19.39,44.785,26.023 C133.691,378.278,129.15,370.537,124.396,362.532z"/> <path d="M415.042,164.6c-0.053-0.31-0.12-0.617-0.201-0.921c-8.236-36.438-25.973-69.31-50.461-95.875 c-0.513-0.722-1.119-1.375-1.806-1.94c-26.54-28.077-60.721-48.855-99.182-58.973c-0.391-0.129-0.788-0.238-1.192-0.317 c-16.697-4.287-34.189-6.57-52.205-6.57c-17.992,0-35.461,2.278-52.138,6.554c-0.426,0.082-0.844,0.197-1.256,0.333 c-38.46,10.119-72.64,30.897-99.179,58.975c-0.687,0.565-1.292,1.216-1.805,1.938C31.13,94.369,13.393,127.242,5.158,163.682 c-0.08,0.299-0.146,0.601-0.198,0.906C1.722,179.219,0,194.412,0,210.002c0,15.591,1.722,30.784,4.961,45.415 c0.052,0.303,0.117,0.604,0.197,0.901c8.235,36.441,25.972,69.315,50.461,95.881c0.512,0.72,1.116,1.371,1.801,1.935 c26.577,28.119,60.816,48.918,99.344,59.021c0.251,0.078,0.504,0.148,0.761,0.206c16.777,4.331,34.359,6.637,52.47,6.637 c18.116,0,35.703-2.306,52.484-6.64c0.255-0.058,0.507-0.127,0.757-0.205c38.527-10.104,72.765-30.901,99.342-59.018 c0.685-0.564,1.289-1.215,1.801-1.935c24.49-26.566,42.228-59.44,50.464-95.881c0.08-0.3,0.146-0.602,0.198-0.908 c3.238-14.629,4.96-29.82,4.96-45.409C420,194.416,418.279,179.227,415.042,164.6z M281.929,385.842 c4.383-7.57,8.923-15.31,13.675-23.311c10.311-0.758,20.7-1.664,31.103-2.707C313.132,370.421,298.084,379.21,281.929,385.842z M295.529,342.478c-9.292-17.838-19.979-37.53-32.505-59.886c9.273-15.89,18.674-31.845,27.801-47.325 c3.015-5.113,6.006-10.191,8.996-15.267h72.843c8.407,13.488,15.462,24.924,21.841,35.401 c-7.583,30.808-22.695,58.683-43.274,81.553C332.664,339.242,313.977,341.097,295.529,342.478z M124.396,362.532 c4.754,8.005,9.296,15.746,13.677,23.314c-16.157-6.633-31.208-15.423-44.785-26.023 C103.696,360.867,114.086,361.773,124.396,362.532z M124.472,342.477c-18.439-1.379-37.127-3.234-55.704-5.524 c-20.578-22.869-35.689-50.744-43.271-81.552c6.368-10.459,13.423-21.895,21.841-35.401h72.843 c2.993,5.081,5.988,10.165,9.005,15.282c9.124,15.475,18.523,31.424,27.792,47.309 C144.455,304.941,133.767,324.633,124.472,342.477z M138.073,34.155c-4.382,7.568-8.923,15.309-13.677,23.314 c-10.311,0.759-20.7,1.664-31.106,2.708C106.866,49.578,121.916,40.788,138.073,34.155z M124.471,77.523 c9.298,17.85,19.988,37.544,32.508,59.89c-9.268,15.883-18.672,31.831-27.795,47.305c-3.014,5.111-6.018,10.206-9.007,15.282 h-72.84c-8.405-13.485-15.461-24.921-21.841-35.4c7.583-30.808,22.694-58.683,43.272-81.553 C87.34,80.758,106.027,78.903,124.471,77.523z M282.499,210c-2.959,5.024-5.919,10.05-8.902,15.109 c-9.149,15.516-18.574,31.51-27.878,47.456c-23.736,0.339-47.698,0.339-71.435,0c-9.301-15.94-18.723-31.929-27.869-47.441 c-2.986-5.065-5.95-10.095-8.912-15.124c2.962-5.03,5.925-10.06,8.912-15.124c9.146-15.512,18.568-31.5,27.869-47.441 c23.736-0.339,47.699-0.339,71.435,0c9.305,15.946,18.73,31.939,27.878,47.456C276.579,199.951,279.539,204.976,282.499,210z M30.003,210c-3.333,5.349-6.45,10.37-9.4,15.141C20.208,220.145,20,215.098,20,210.002c0-5.097,0.208-10.145,0.604-15.142 C23.555,199.633,26.672,204.654,30.003,210z M389.998,210c3.331-5.345,6.448-10.366,9.399-15.14 c0.396,4.997,0.604,10.045,0.604,15.142c0,5.095-0.208,10.142-0.603,15.137C396.446,220.367,393.329,215.346,389.998,210z M372.664,200h-72.841c-2.986-5.071-5.988-10.161-8.999-15.267c-9.125-15.477-18.533-31.432-27.804-47.32 c12.525-22.353,23.213-42.046,32.508-59.89c18.443,1.38,37.13,3.234,55.7,5.523c20.58,22.87,35.692,50.746,43.275,81.554 C388.122,175.081,381.067,186.517,372.664,200z M295.604,57.469c-4.753-8.004-9.294-15.744-13.675-23.31 c16.154,6.632,31.202,15.421,44.776,26.018C316.302,59.133,305.914,58.227,295.604,57.469z M278.248,67.406 c-9.277,17.838-19.981,37.57-32.561,60.027c-23.717-0.336-47.656-0.336-71.373,0c-12.577-22.45-23.28-42.183-32.561-60.027 c8.79-14.804,16.87-28.734,24.552-42.325c14.033-3.315,28.659-5.078,43.691-5.078c15.036,0,29.666,1.764,43.702,5.08 C261.378,38.672,269.458,52.601,278.248,67.406z M166.304,394.919c-7.682-13.59-15.762-27.52-24.552-42.325 c9.276-17.835,19.976-37.561,32.551-60.009c23.717,0.336,47.678,0.336,71.393,0c12.58,22.456,23.279,42.181,32.551,60.009 c-8.784,14.795-16.864,28.724-24.551,42.323c-14.037,3.317-28.667,5.08-43.702,5.08 C194.963,399.997,180.337,398.234,166.304,394.919z"/> </g> </g></svg>
+                              <h4>Football</h4>
+                              <p>J'ai une énorme passion pour ce sport que je pratique maintenant depuis plus de 10 ans en club ou avec des amis.</p>
+                            </div>
+            
+                            <div class="passion-content">
+                              <svg fill="#540FE8" width="70px" height="70px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title>ionicons-v5-g</title><path d="M483.13,245.38C461.92,149.49,430,98.31,382.65,84.33A107.13,107.13,0,0,0,352,80c-13.71,0-25.65,3.34-38.28,6.88C298.5,91.15,281.21,96,256,96s-42.51-4.84-57.76-9.11C185.6,83.34,173.67,80,160,80a115.74,115.74,0,0,0-31.73,4.32c-47.1,13.92-79,65.08-100.52,161C4.61,348.54,16,413.71,59.69,428.83a56.62,56.62,0,0,0,18.64,3.22c29.93,0,53.93-24.93,70.33-45.34,18.53-23.1,40.22-34.82,107.34-34.82,59.95,0,84.76,8.13,106.19,34.82,13.47,16.78,26.2,28.52,38.9,35.91,16.89,9.82,33.77,12,50.16,6.37,25.82-8.81,40.62-32.1,44-69.24C497.82,331.27,493.86,293.86,483.13,245.38ZM208,240H176v32a16,16,0,0,1-32,0V240H112a16,16,0,0,1,0-32h32V176a16,16,0,0,1,32,0v32h32a16,16,0,0,1,0,32Zm84,4a20,20,0,1,1,20-20A20,20,0,0,1,292,244Zm44,44a20,20,0,1,1,20-19.95A20,20,0,0,1,336,288Zm0-88a20,20,0,1,1,20-20A20,20,0,0,1,336,200Zm44,44a20,20,0,1,1,20-20A20,20,0,0,1,380,244Z"/></svg>
+                              <h4>Jeux vidéos</h4>
+                              <p>J’aime beaucoup jouer avec mes amis ou me laisser bercer dans les aventures captivantes des jeux solo.</p>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div id="bullets">
+                 <label for="slide1"></label>
+                 <label for="slide2"></label>
+              </div>
+           </div>
+            <div class="cv animate">
+              <a href="MyCV/CV.pdf" target="_blank"><button id="cv"><span class="material-symbols-outlined">download</span>Télécharger mon CV</button></a>
+            </div>
+          </div> 
+        </div>
+      </section>
+
+      <section class="skills">
+          <div class="container animate">
+              <div class="skill-top">
+                  <h2>Mes Compétences</h2>
+                  <hr>
+              </div>
+              
+              <div class="skill-box">
+                  <div class="skill-content"> 
+                      <div class="img">
+                          <img src="Items/html5-css3.png" class="skill-icon w65">
+                      </div>
+                      <p>Html & CSS</p>
+                  </div>
+
+                  <div class="skill-content"> 
+                      <div class="img">
+                          <img src="Items/PHP-logo.png" class="skill-icon w65">
+                      </div>
+                      <p>PHP</p>
+                  </div>
+
+                  <div class="skill-content"> 
+                      <div class="img">
+                          <img src="Items/Python.png" class="skill-icon w70">
+                      </div>
+                      <p>Python</p>
+                  </div>
+
+                  <div class="skill-content"> 
+                    <div class="img">
+                        <img src="Items/powershell.svg" class="skill-icon w70">
+                    </div>
+                    <p>Powershell</p>
+                </div>
+              </div>
+
+              <div class="skill-top space30"><hr></div>
+
+              <div class="skill-outil">
+                <div class="box animate">
+                  <h3>Systèmes d'exploitation</h3>
+                  <div class="SE">
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/Windows.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Windows</p>
+                    </div>
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/linux.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Linux</p>
+                    </div>
+                  </div>
+                </div> 
+
+                <div class="box animate">
+                  <h3>IDE</h3>
+                  <div class="SE">
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/IntelliJ_IDEA.png" alt=""  class="skill-icon">
+                      </div>
+                      <p>InteliJ</p>
+                    </div>
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/VisualStudio.jpg" alt=""  class="skill-icon">
+                      </div>
+                      <p>Visual Studio</p>
+                    </div>
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/Geany_logo.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Geany</p>
+                    </div>
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/arduino.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Arduino IDE</p>
+                    </div>
+                  </div>
+                </div> 
+
+                <div class="box animate">
+                  <h3>Langues</h3>
+                  <div class="SE">
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/FR.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Français</p>
+                    </div>
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/TR.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Turc</p>
+                    </div>
+                    <div class="outil-content">
+                      <div class="img">
+                        <img src="Items/UK.png" alt="" class="skill-icon">
+                      </div>
+                      <p>Anglais</p>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+          </div>
+      </section>
+
+      <section class="portfolio">
+          <div class="container">
+            <div class="skill-top animate">
+              <h2>Mes projets</h2>
+              <hr>
+            </div>
+            
+            <div class="grid">
+              <div class="grid-item top">
+                  <div class="card animate">
+                    <img src="Items/activedirectory.png" loading="lazy"class="card__image" width="300" height="200">
+                    <div class="card__inner">
+                      <h3 class="card__title">Active Directory</h3>
+                    </div>
+                    <div class="card__overlay">
+                      <a href="#" class="card__link" data-id="modal-1">+</a>
+                    </div>
+                  </div>
+                  <div class="modal" id="modal-1">
+                    <button class="modal__close">&times;</button>
+        
+                    <div class="modal__content">
+                      <div class="container">
+                        <div class="grid">
+                          <div class="grid-item">
+                            <img src="img/coc_screen.png" loading="lazy" width="560" height="373"
+                              class="card__image"/>
+                            <img src="img/coc_screen2.png" loading="lazy" width="560" height="373"
+                              class="card__image"/>
+                          </div>
+                          <div class="grid-item overlay-content">
+                            <h4 class="modal__title">Clash of Clan Tower Defense</h4>
+                            <p>
+                              <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                  d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                </path>
+                              </svg>
+                              <i>Année : 2023</i>
+                            </p>
+
+                            <h5 class="overlay-title">Contexte</h5>
+                            <p>Ce projet avait pour objectif de réaliser un tower defense en 2D en trio sur une durée de 6 semaines. Le but du jeu est de repousser des ennemis qui viennent dans différente vague à l'aide de nos défenses qu’il faudra placer stratégiquement.</p> 
+                            <p> Pour la gestion de notre projet, on nous a imposé l'utilisation de trello et découpé notre code en plusieurs itérations que l’on rendait tous les 10 jours.</p>
+
+                            <p class="link-projet">Lien du projet : <a href="https://github.com/DUT-Info-Montreuil/TowerDefenseClashOfClan" target="_blank">Clash of Clan Tower Defense</a></p>
+
+                            <h5 class="overlay-title">Description du jeu</h5>
+                            <p>
+                              Vous êtes le chef d'un puissant village et vous devez le défendre contre les attaques incessantes des hordes d'ennemis.
+                            </p>
+
+                            <p>
+                              Votre objectif est de construire et de positionner stratégiquement des tours de défense pour repousser les assauts des ennemis qui deviennent de plus en plus fort après chaque vague.
+                            </p>
+                            <p>
+                              Attention néanmoins à dépenser votre argent méticuleusement lors de la pose de défenses. Bien que vous pouvez les revendre, elles ne vous rapporteront pas autant que le prix a lesquelles vous les avez achetées !
+                            </p>
+        
+                            <h5 class="overlay-title">Outils utilisé</h5>
+        
+                            <ul>
+                              <li>Java</li>
+                              <li>SceneBuilder</li>
+                              <li>Github</li>
+                              <li>Trello</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="grid-item top">
+                <div class="card animate">
+                  <img src="Items/Apache-Guacamole-logo.png" loading="lazy" class="card__image" width="300" height="200">
+                  <div class="card__inner">
+                    <h3 class="card__title">Serveur Guacamole</h3>
+                  </div>
+                  <div class="card__overlay">
+                    <a href="" class="card__link" data-id="modal-2">+</a>
+                  </div>
+                </div>
+                <div class="modal" id="modal-2">
+                  <button class="modal__close">&times;</button>
+      
+                  <div class="modal__content">
+      
+                    <div class="container  overlay-content">
+                      <div class="grid">
+                        <div class="grid-item">
+                          <img src="img/Z-Hellda.png" loading="lazy" width="560" height="373"
+                            class="card__image"/>
+                          <img src="img/zhellda-GamplayScreenshot.png" loading="lazy" width="560" height="373"
+                            class="card__image"/>
+                        </div>
+                        <div class="grid-item">
+                          <h4 class="modal__title h2">Z-Hellda</h4>
+                          <p>
+                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                              data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                              <path fill="currentColor"
+                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                              </path>
+                            </svg>
+                            <i>Année : 2024</i>
+                          </p>
+                          <h5 class="overlay-title">Contexte</h5>
+                          <p>
+                            Projet réalisé en trio en utilisant un peu de méthode agile sur une période de 7 semaines. Avec l'architecture MVC (modèle vue contrôleur) nous devions réaliser un petit zelda en 2D avec un personnage qui peut interagir, attaquer, se déplacer ou parler.
+                          </p>
+                          <p>Pour la gestion de notre projet, nous avons utilisé github et trello, puis notre projet a été répartie en plusieurs sprints réalisés à peu près tous les 10 jours.</p>
+
+                          <p class="link-projet">Lien du projet : <a href="https://github.com/bsy44/Z-Hellda" target="_blank">Z-Hellda</a></p>
+      
+                          <h5 class="overlay-title">Description du jeu</h5>
+                          <p>
+                            Entrez dans un monde qui mélange univers post-apocalyptique, enfer et Zelda. Votre but est de survivre dans ce monde chaotique et de vaincre le boss final qui arrivera après les vagues d’ennemis.  
+                          </p>
+
+                          <p>Vous disposerez pour cela de plusieurs types d’armes de courtes ou longues distances ainsi que des items consommables disponible dans les coffres ou sur le corps des ennemis qui influeront sur l’état du héros ou de ces armes. </p>
+      
+                          <p>Attention néanmoins à bien gérer votre inventaire et à utiliser au bon moment vos items consommables afin de ne pas vous retrouvez dans une mauvaise passe !</p>
+
+                          <h5 class="overlay-title">Outils utilisé</h5>
+      
+                          <ul>
+                            <li>Java</li>
+                            <li>CSS</li>
+                            <li>SceneBuilder</li>
+                            <li>Github</li>
+                            <li>Trello</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="grid-item top">
+                <div class="card animate">
+                  <img src="Items/serveurzabbix.png" loading="lazy" class="card__image" width="300" height="200">
+                  <div class="card__inner">
+                    <h3 class="card__title">Serveur Zabbix</h3>
+                  </div>
+                  <div class="card__overlay">
+                    <a href="" class="card__link" data-id="modal-3">+</a>
+                  </div>
+                </div>
+                <div class="modal" id="modal-3">
+                  <button class="modal__close">&times;</button>
+      
+                  <div class="modal__content">
+      
+                    <div class="container  overlay-content">
+                      <div class="grid">
+                        <div class="grid-item">
+                          <img src="img/Capture d'écran 2024-03-26 211911.png" loading="lazy" width="560" height="373"
+                            class="card__image"/>
+                          <img src="img/Capture d'écran 2024-03-26 213427.png" loading="lazy" width="560" height="373"
+                            class="card__image"/>
+                        </div>
+                        <div class="grid-item">
+                          <h4 class="modal__title h2">Bataille navale</h4>
+                          <p>
+                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                              data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                              <path fill="currentColor"
+                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                              </path>
+                            </svg>
+                            <i>Année : 2022</i>
+                          </p>
+                          <h5 class="overlay-title">Contexte</h5>
+                          <p>
+                            Projet réalisé en duo sur une durée de 5 semaines. Réalisation d’un jeu de plateau sans le concept de programmation objet et avec comme seul interface le terminal. Utilisation de Github.
+                          </p>
+                          <p>A la fin de notre projet, nous devions rendre des tests JUnit ainsi qu’une petite documentation.</p>
+
+                          <p class="link-projet">Lien du projet : <a href="https://github.com/bsy44/BatailleNavale" target="_blank">Bataille navale</a></p>
+      
+                          <h5 class="overlay-title">Description du jeu</h5>
+                          <p>
+                            Deux joueurs s'affrontent l’un contre l’autre. Chaque joueur possède 5 bateaux et 2 plateaux, un pour placer les bateaux que l’autre ne voit pas et un autre pour tirer les missiles. 
+                          </p>
+
+                          <p>Une fois tous les bateaux placés, la partie peut commencer. Chaque joueur joue à tour de rôle et donne des coordonnées pour tirer sur les bateaux ennemis. Si un joueur touche un bateau, il peut de nouveau jouer.</p>
+      
+                          <p>La partie se termine quand un joueur fait couler toute la flotte ennemie.</p>
+
+                          <h5 class="overlay-title">Outils utilisé</h5>
+      
+                          <ul>
+                            <li>Java</li>
+                            <li>Github</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item bottom">
+                <div class="card animate">
+                  <img src="img/jeuDames.jpg" loading="lazy"class="card__image" width="365" height="243">
+                  <div class="card__inner">
+                    <h3 class="card__title">Jeu de Dames</h3>
+                  </div>
+                  <div class="card__overlay">
+                    <a href="#" class="card__link" data-id="modal-4">+</a>
+                  </div>
+                </div>
+                <div class="modal" id="modal-4">
+                  <button class="modal__close">&times;</button>
+      
+                  <div class="modal__content">
+      
+                    <div class="container overlay-content">
+                      <div class="grid">
+                        <div class="grid-item">
+                          <img src="img/screenJeuDames.png" loading="lazy" width="560" height="373"
+                            class="card__image"/>
+                          <img src="img/screen-jeuDames2.png" loading="lazy" width="560" height="373"
+                            class="card__image"/>
+                        </div>
+                        <div class="grid-item">
+                          <h4 class="modal__title h2">Jeu de Dames</h4>
+                          <p>
+                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                              data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                              <path fill="currentColor"
+                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                              </path>
+                            </svg>
+                            <i>Année : 2023</i>
+                          </p>
+                          <h5 class="overlay-title">Contexte</h5>
+                          <p>
+                            Projet réalisé sur une durée de 5 semaines. On devait réaliser un jeu de plateau en binôme sans le concept de programmation objet et avec comme seul interface le terminal. Utilisation de Github
+                          </p>
+                          <p>A la fin de notre projet, nous devions rendre des tests JUnit ainsi qu’une petite documentation.</p>
+
+                          <p class="link-projet">Lien du projet : <a href="https://github.com/bsy44/JeuDeDames" target="_blank">Jeu de Dames</a></p>
+
+                          <h5 class="overlay-title">Description du jeu</h5>
+                          <p>
+                            2 joueurs s'affrontent sur un plateau de 10 cases en largeur et 10 cases en longuer (pion blanc VS pion noir).Chaque joueur possède 20 pions et peut les déplacer sur leur diagonale vers l'avant.
+                          </p>
+
+                          <p>Le premier coup est toujours joué par les blancs. Les joueurs jouent à tour de rôle après chaque coup. Lorsqu’un pion effectue une prise, Il se rend alors sur la case suivante et enlève le pion adverse.</p>
+
+                          <p>Lorsqu'il atteint la dernière rangée, le pion devient une dame et se déplace sur la diagonale jusqu'à qu'il tombe sur un obstacle. Une partie se finit quand un des 2 joueurs n'a plus de pion.</p>
+      
+                          <h5 class="overlay-title">Outils utilisé</h5>
+      
+                          <ul>
+                            <li>Java</li>
+                            <li>Github</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item bottom">
+                <div class="card animate">
+                  <img src="img/BD-F1.png" loading="lazy" class="card__image" width="365" height="243">
+                  <div class="card__inner">
+                    <h3 class="card__title">Base de données F1</h3>
+                  </div>
+                  <div class="card__overlay">
+                    <a href="#" class="card__link" data-id="modal-5">+</a>
+                  </div>
+                </div>
+                <div class="modal" id="modal-5">
+                  <button class="modal__close">&times;</button>
+      
+                  <div class="modal__content">
+      
+                    <div class="container overlay-content">
+                      <div class="grid">
+                        <div class="grid-item">
+                          <img src="img/screen-bd.png" loading="lazy" width="560" height="373"
+                            class="card__image" style="border: 1px black solid;" />
+                          <img src="img/MCD_BD_F1.png" loading="lazy" width="560" height="373"
+                            class="card__image" style="border: 1px black solid;" />
+                        </div>
+                        <div class="grid-item">
+                          <h4 class="modal__title h2">Base de données F1</h4>
+                          <p>
+                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                              data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                              <path fill="currentColor"
+                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                              </path>
+                            </svg>
+                            <i>Année : 2023</i>
+                          </p>
+                          <h5 class="overlay-title">Contexte</h5>
+                          <p>
+                            Projet réaliser en trio visant à réaliser une base de données sur un sujet au choix. Nous devions rédiger un descriptif de notre base, réaliser un MCT,  MCD, un script SQL, les insertions SQL et tester notre base de données avec des requêtes.
+                          </p>
+
+                          <h5 class="overlay-title">Description projet</h5>
+
+                          <p>Notre schéma est composée de 7 tables :
+                            <ul class="grey">
+                              <li>Personne qui contient les informations sur les personnes</li>
+                              <li>Pilote qui est un héritage de personne</li>
+                              <li>Directeur Écurie qui est un héritage de personne</li>
+                              <li>Écurie qui contient les informations sur les écuries</li>
+                              <li>Circuit qui contient les informations sur les circuits</li>
+                              <li>Grand-Prix qui contient les informations sur les grand-prix</li>
+                              <li>Performance Pilote qui stock les résultat des pilotes sur les grandprix</li>
+                            </ul>
+                          </p>
+
+                          <p class="link-projet">Lien du projet : <a href="https://github.com/bsy44/BD_F1" target="_blank">Base de données F1</a></p>
+          
+                          <h5 class="overlay-title">Outil utilisé</h5>
+      
+                          <ul>
+                            <li>PostgreSQL</li>
+                            <li>JMerise</li>
+                            <li>Github</li>
+                            <li>Draw.io</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item bottom">
+                <div class="card animate" data-category="app">
+                  <img src="img/Cactus_Hostel.png" loading="lazy" class="card__image" width="365" height="243">
+                  <div class="card__inner">
+                    <h3 class="card__title">Site cactus Hostel</h3>
+                  </div>
+                  <div class="card__overlay">
+                    <a href="#" class="card__link" data-id="modal-6">+</a>
+                  </div>
+                </div>
+                <div class="modal" id="modal-6">
+                  <button class="modal__close">&times;</button>
+      
+                  <div class="modal__content">
+      
+                    <div class="container overlay-content">
+                      <div class="grid">
+                        <div class="grid-item">
+                          <img src="img/cactus-screen1.png" loading="lazy" width="560" height="373"
+                            class="card__image"  />
+                          <img src="img/cactus-screen2.png" loading="lazy" width="560" height="373"
+                            class="card__image"  />
+                        </div>
+                        <div class="grid-item">
+                          <h4 class="modal__title h2">Site cactus Hostel</h4>
+                          <p>
+                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                              data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                              <path fill="currentColor"
+                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                              </path>
+                            </svg>
+                            <i>Année : 2023</i>
+                          </p>
+                          <h5 class="overlay-title">Contexte</h5>
+                          <p>
+                            Ce projet en trio consistait à réaliser une page d'accueil en anglais pour un hôtel situé à Saint-Denis à partir d’une page minimaliste donnée. 
+                          </p>
+
+                          <p>Celle-ci visait à promouvoir des chambres d'hôtel dont une orientée sur un athlète populaire de notre choix en vue des Jeux Olympiques de Paris 2024.</p>
+      
+                          <p>Notre projet devait répondre à la contrainte d’éco-responsabilité en conséquence du réchauffement climatique.</p>
+
+                          <p class="link-projet">Lien du projet : <a href="https://github.com/bsy44/Site-cactus-hotel" target="_blank">Cactus Hostel</a></p>                
+                          
+                          <h5 class="overlay-title">Description du site</h5>
+                          
+                          <p>
+                            La page d'accueil est divisé en 4 sections :
+
+                            <ul class="grey">
+                              <li>La 1ère qui contient une barre de navigation ainsi que des aperçues sur l'hôtel.</li>
+                              <li>La 2ème présente la chambre spécial athlète et ces caractéristique. Nous avons choisi de représenter la star montante de la NBA Victor Wembanyama</li>
+                              <li>La 3ème nous montre où est situé le stade de Stade de France et comment s’y rendre par rapport à l'hôtel.</li>
+                              <li>Enfin la dernière qui contient les contacts de l’hôtel ainsi que son adresse et de quelque lien externe</li>
+                            </ul>
+                          </p>
+      
+                          <h5 class="overlay-title">Outils utilisé</h5>
+      
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Trello</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="formation">
+        <div class="container animate">
+          <div class="skill-top">
+            <h2>Formations & Stages</h2>
+            <hr>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-content left-content">
+              <span class="dot"></span>
+              <div class="text-box">
+                <h2>BTS SIO • 2022/2024</h2>
+                <p>Lycée Louis Armand (2 Années)</p>
+                <ul>
+                  <li>Serveur Guacamole</li>
+                </ul>
+                <span class="right-arrow"></span>
+              </div>
+            </div>
+              
+            <div class="timeline-content right-content">
+              <span class="dot"></span>
+              <div class="text-box">
+                <h2>Bac STI2D • 2020/2022</h2>
+                <p>Lycée Condorcet (2 Années)</p>
+                <ul>
+                  <li>Spécialité SIN</li>
+                  <li>Projet Arduino</li>
+                </ul>
+                <span class="left-arrow"></span>
+              </div>
+            </div>
+
+
+            <div class="timeline-content right-content"></div>
+              <span class="dot"></span>
+              <div class="text-box">
+                <h2>Support & maintenance équipements 3D • 2018</h2>
+                <p>Trimble Mensi  Stage (2 semaines)</p>
+                <ul>
+                  <li>Spécialité SIN</li>
+                  <li>Projet Arduino</li>
+                </ul>
+                <span class="left-arrow"></span>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <section class="contact animate">
+          <h2>Contact</h2>
+          <hr>
+          <ul class="social">
+            <li class="linkedin">
+                <a href="https://www.linkedin.com/in/Selahaddin-tiryaki/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+                </a>
+            </li>
+
+            <li class="github">
+                <a href="https://github.com/SeloTir" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                </a>
+            </li>
+
+            <li class="mail">
+                <a href="mailto:stiryaki@outlook.fr" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+                </a>
+            </li>
+          </ul>
+        </section>   
+
+        <div class="citation">
+          <h3>“Dans le monde du code, chaque erreur est une opportunité d'améliorer.”</h3>
+          <p>Linus Torvald</p>
+
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy;2024 TIRYAKI Selahaddin | Tous droits réservés.</p>
+        </div>
+      </footer>
+
+      <div class="btn">
+        <span class="material-symbols-outlined">arrow_upward</span>
+      </div>
+    </body>
+</html> 
