@@ -220,7 +220,7 @@
 /* HERO */
     .hero {
         height: 100vh;
-        background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../img/hero-background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../Items/lac.jpg);
         background-size: cover;
         background-position: center; 
         display: flex;
