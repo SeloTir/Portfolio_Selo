@@ -24,7 +24,7 @@
         font-size: 62.5%;
     }
 
-/* CLASSE GENERIQUE */
+/* CLASSE GENERIQQUE */
     section{
         min-height: 100vh;
         padding: 7rem 0;
@@ -100,7 +100,7 @@
         'GRAD' 0,
         'opsz' 24;
         transform: scale(1.2);
-        color: #0c0cef;
+        color: #540FE8;
     }
 
     .btn span{
@@ -150,7 +150,7 @@
         font-family: "Poppins", sans-serif;
         font-size: 27px;
         font-weight: 600;
-        color: #0c0cef;
+        color: #540FE8;
     }
 
     .header nav a {
@@ -160,7 +160,7 @@
         align-items: center;
         padding: 0 15px;
         font-family: "Poppins", sans-serif;
-        color: #0c0cef;
+        color: #540FE8;
         position: relative;
         transition: color 0.3s ease-in-out;
     }
@@ -172,7 +172,7 @@
         left: 25%;
         width: 50%;
         height: 3px;
-        background-color: #0c0cef;
+        background-color: #540FE8;
         transform: scaleX(0);
         transition: transform 0.3s ease-in-out; 
     }
@@ -196,7 +196,7 @@
     .burger .bar{
         width: 27px;
         height: 4px;
-        background-color: #0c0cef;
+        background-color: #540FE8;
         display: block;
     }
 
@@ -205,7 +205,7 @@
         content: "";
         width: 27px;
         height: 4px;
-        background-color: #0c0cef;
+        background-color: #540FE8;
         position:absolute;
     }
 
@@ -220,7 +220,7 @@
 /* HERO */
     .hero {
         height: 100vh;
-        background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../Items/lac.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../img/hero-background.jpg);
         background-size: cover;
         background-position: center; 
         display: flex;
@@ -278,7 +278,7 @@
         width: 75px;
         height: 5px;
         border: none;
-        background: #0c0cef;
+        background: #540FE8;
         margin: 0 auto;
     }
 
@@ -302,7 +302,7 @@
         margin-top: 50px;
         width: 300px;
         padding: 15px;
-        background-color: #0c0cef;
+        background-color: #540FE8;
         color: #fff;
         text-align: center;
         font-size: 20px;
@@ -468,7 +468,7 @@
         width: 75px;
         height: 5px;
         border: none;
-        background: #0c0cef;
+        background: #540FE8;
     }
 
     .skill-content{
@@ -582,7 +582,7 @@
         position: relative;
         border-radius: 6px;
         font-size: 17px;
-        box-shadow: 1px 4px 10px rgb(32, 6, 230);
+        box-shadow: 1px 4px 10px rgb(112, 7, 211);
     }
     .text-box:hover{
         transition: transform .3s ease-in-out;
@@ -634,7 +634,7 @@
         z-index: 1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-left: 15px solid #0c0cef;
+        border-left: 15px solid #540FE8;
         right: -15px;
     }
 
@@ -646,7 +646,7 @@
         z-index: 1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-right: 15px solid #0c0cef;
+        border-right: 15px solid #540FE8;
         left: -15px;
     }
 
@@ -826,7 +826,7 @@
     }
 
     .link-projet a{
-        color: #0c0cef;
+        color: #540FE8;
         font-weight: 600;
         text-decoration: underline;
     }
@@ -863,7 +863,7 @@
         width: 75px;
         height: 5px;
         border: none;
-        background: #0c0cef;
+        background: #540FE8;
         margin: 15px auto; 
     }
 
@@ -1082,7 +1082,7 @@
         }
 
         .left-arrow, .right-arrow{
-            border-right: 15px solid #0c0cef;
+            border-right: 15px solid #540FE8;
             border-left: 0;
             left: -15px;
         }
@@ -1172,3 +1172,5 @@
         transform: translateX(0);
         }
     }  
+
+
